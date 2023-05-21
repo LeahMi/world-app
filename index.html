@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./css/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./css/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./css/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./css/favicon/site.webmanifest">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script type="module" defer src="./js/app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="sticky-top">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light px-2">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> 
+        </button>
+        <a class="navbar-brand me-auto px-2" id="id_home" href="./index1.html">Home</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item" id="id_israel">
+              <a class="nav-link" value="Israel" aria-current="page" href="#">Israel</a>
+            </li>
+            <li class="nav-item" id="id_usa">
+              <a class="nav-link" value="United States" aria-current="page" href="#">USA</a>
+            </li>
+            <li class="nav-item" id="id_thailand">
+                <a class="nav-link" value="Thailand" aria-current="page" href="#">Thailand</a>
+              </li>
+            <li class="nav-item" id="id_uk">
+                <a class="nav-link" value="United Kingdom" aria-current="page" href="#">UK</a>
+            </li>
+            <li class="nav-item" id="id_brazil">
+                <a class="nav-link" value="brazil" aria-current="page" href="#">Brazil</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  
+      <form id="id_form" class="form-inline d-flex mx-auto my-2 my-lg-0" >
+        <input id="search-input" class="form-control autocomplete-input me-2" list="dropdown" type="text" placeholder="Search">
+        <datalist id="dropdown"></datalist>
+        <button id="search-button" class="btn btn-outline-dark align-self-start" >Search</button>
+        <div id="autocomplete-list" class="autocomplete-list"></div>
+      </form>
+    </header>
+      
+    <main class="container-fluid">
+        <div id="id_parent" class="container w-75 mx-auto my-5 card-deck row align-content-center justify-content-center">
+
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>  
+</html>

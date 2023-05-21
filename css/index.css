@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+header{
+    position: relative;
+    background: rgb(253, 185, 169);
+}
+#id_form{
+    position: absolute;
+    z-index: 10000;
+    right: 5%;
+    top: 10%;
+}
+#search-button :hover{
+    background: black;
+}
+.map{
+    min-height: 130%;
+}
+.map iframe{
+    min-height: 130%;
+}
+@media (max-width:992px) {
+    #id_form{
+        position: absolute;
+        z-index: 10000;
+        right: 5%;
+    }
+}
+@media (max-width:768px) {
+    #id_form{
+        position: absolute;
+        z-index: 10000;
+        right: 5%;
+        /* top: 5%; */
+    }
+}
+
+@media (max-width:550px) {
+    #id_form{
+        position: absolute;
+        z-index: 10000;
+        right: 5%;
+        top: 100%;
+    }
+}
+
+@media (max-width:350px) {
+    #id_form{
+        position: absolute;
+        z-index: 10000;
+        left: 5%;
+        top: 100%;
+    }
+}
